@@ -1,4 +1,4 @@
-const App = () => {
+export const Home = () => {
   return (
     <>
       <div
@@ -16,7 +16,7 @@ const App = () => {
         </a>
         <p className={'text-[3vw]'}>React + Vite + Typescript + Tailwindcss</p>
         <pre className={'p-2 rounded-[15px] text-[1vw]'}>
-          You can edit <span className={'italic '}>src/App.tsx</span> to start{' '}
+          You can edit <span className={'italic '}>src/pages/home</span> to start{' '}
           {'<3'}!
         </pre>
         <pre className='text-[1vw] font-bold text-[#c7d0cc] hover:scale-110 transition duration-300'>
@@ -31,5 +31,3 @@ const App = () => {
     </>
   );
 };
-
-export default App;
